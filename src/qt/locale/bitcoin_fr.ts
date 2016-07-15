@@ -2675,8 +2675,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7607 or testnet: 17607)</source>
-        <translation>Écouter les connexions sur le &lt;port&gt; (par défault: 7607 ou testnet: 17607)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7715 or testnet: 17715)</source>
+        <translation>Écouter les connexions sur le &lt;port&gt; (par défault: 7715 ou testnet: 17715)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2735,8 +2735,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7608 or testnet: 17608)</source>
-        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (default: 7608 or testnet: 17608)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7716 or testnet: 17716)</source>
+        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (default: 7716 or testnet: 17716)</translation>
     </message>
     <message>
         <location line="-11"/>

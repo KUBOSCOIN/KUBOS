@@ -28,7 +28,7 @@ class CNode;
 
 class CTxMemPool;
 
-static const int LAST_POW_BLOCK = 250;
+static const int LAST_POW_BLOCK = 2000000;
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
@@ -54,8 +54,8 @@ static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20
 
 static const int64_t COIN_YEAR_REWARD = 100 * CENT;
 
-static const uint256 hashGenesisBlock("0x0000042321037dd11bb1cc7ec104643c8458287f6f7268dc4388b730ab843848");
-static const uint256 hashGenesisBlockTestNet("0x0000042321037dd11bb1cc7ec104643c8458287f6f7268dc4388b730ab843848");
+static const uint256 hashGenesisBlock("0x00000702d54b2aebb235b1888987227e89d7c5dbe5ec0f681fc6f1433639152b");
+static const uint256 hashGenesisBlockTestNet("0x00000702d54b2aebb235b1888987227e89d7c5dbe5ec0f681fc6f1433639152b");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; } // up to 10 minutes from the future
